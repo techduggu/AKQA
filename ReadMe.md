@@ -1,12 +1,12 @@
 # AKQA .NET Tech Challenge
 
-This repository contains .NET application solution for AKQA .NET Tech Challenge built using ASP.NET Core, WebApi and Entity Framework Core. The architecture and design of the project is based on very popular 'Clean Architecture' which is very well explained in the following links:
+This repository contains .NET application solution for AKQA .NET Tech Challenge built using ASP.NET Core, WebApi and Entity Framework Core. The architecture and design of the project are based on very popular 'Clean Architecture' which is very well explained in the following links:
 
 * [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-* [Common web application architectures by Microsoft] (https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures)
-* [Architect Modern Web Applications with ASP.NET Core by Microsoft] (https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/)
+* [Common web application architectures by Microsoft](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures)
+* [Architect Modern Web Applications with ASP.NET Core by Microsoft](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/)
 
-The different projects created as part of Clean Architecture under this repository contains a ReadMe.md file for further explaination.
+The different projects created as part of Clean Architecture under this repository contains a ReadMe.md file for further information.
 
 ## Getting Started
 Use these instructions to get the project up and running:
