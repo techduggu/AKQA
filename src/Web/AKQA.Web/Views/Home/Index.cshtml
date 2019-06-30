@@ -1,0 +1,51 @@
+﻿@model AKQA.Domain.Entities.Customer
+@{
+    ViewData["Title"] = "AKQA Home";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>
+    @ViewData["Message"]
+</h3>
+<p>Please provide the below information.</p>
+<br/>
+<div>
+    <form action="/" method="post">
+        <div>
+            <div class="form-section">
+                <div class="form-lbl">
+                    <label asp-for="FirstName">First Name*</label>
+                </div>
+                <input required asp-for="FirstName" />
+            </div>
+            <br />
+            <div class="form-section">
+                <div class="form-lbl">
+                    <label asp-for="MiddleName">Middle Name</label>
+                </div>
+                <input asp-for="MiddleName" />
+            </div>
+            <br />
+            <div class="form-section">
+                <div class="form-lbl">
+                    <label asp-for="LastName">Last Name</label>
+                </div>
+                <input asp-for="LastName" />
+            </div>
+            <br />
+            <div class="form-section">
+                <div class="form-lbl">
+                    <label asp-for="Amount">Amount*</label>
+                </div>
+                <input required asp-for="Amount" />
+            </div>
+            <br />
+            <button id="btn-submit" type="button" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+
+<h2 id="resultHeader" class="hide">Result:</h2>
+<div id="result" class="result-box"></div>
+<br/>
+<div id="msg" class="msg-box"></div>
